@@ -1,0 +1,3 @@
+/home/yana/CLionProjects/FINAL-lab07/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+/home/yana/CLionProjects/FINAL-lab07/cmake-build-debug/CMakeFiles/edit_cache.dir
+/home/yana/CLionProjects/FINAL-lab07/cmake-build-debug/CMakeFiles/project.dir

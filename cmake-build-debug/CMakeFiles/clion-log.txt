@@ -1,0 +1,132 @@
+/opt/clion-2021.3.3/bin/cmake/linux/bin/cmake -DCMAKE_BUILD_TYPE=Debug -DCMAKE_MAKE_PROGRAM=/opt/clion-2021.3.3/bin/ninja/linux/ninja -G Ninja /home/yana/CLionProjects/FINAL-lab07
+-- [hunter] Initializing Hunter workspace (357ce5d16bd518ee6873c04c506723cf7e86e62a)
+-- [hunter]   https://github.com/sasha16613/hunter/archive/tag.tar.gz
+-- [hunter]   -> /home/yana/.hunter/_Base/Download/Hunter/unknown/357ce5d
+-- The C compiler identification is GNU 9.4.0
+-- The CXX compiler identification is GNU 9.4.0
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Check for working C compiler: /usr/bin/cc - skipped
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Check for working CXX compiler: /usr/bin/c++ - skipped
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- [hunter] Calculating Toolchain-SHA1
+-- [hunter] Calculating Config-SHA1
+-- [hunter] HUNTER_ROOT: /home/yana/.hunter
+-- [hunter] [ Hunter-ID: 357ce5d | Toolchain-ID: e5bec79 | Config-ID: 4a8c314 ]
+-- [hunter] PRINT_ROOT: /home/yana/.hunter/_Base/357ce5d/e5bec79/4a8c314/Install (ver.: v1.0)
+-- [hunter] Building print
+loading initial cache file /home/yana/.hunter/_Base/357ce5d/e5bec79/4a8c314/cache.cmake
+loading initial cache file /home/yana/.hunter/_Base/357ce5d/e5bec79/4a8c314/Build/print/args.cmake
+-- The C compiler identification is GNU 9.4.0
+-- The CXX compiler identification is GNU 9.4.0
+-- Check for working C compiler: /usr/bin/cc - skipped
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Check for working CXX compiler: /usr/bin/c++ - skipped
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/yana/.hunter/_Base/357ce5d/e5bec79/4a8c314/Build/print/Build
+[1/16] Creating directories for 'print-Release'
+[1/16] Performing download step (download, verify and extract) for 'print-Release'
+-- Downloading...
+   dst='/home/yana/.hunter/_Base/Download/print/v1.0/4f6250e/v1.0.tar.gz'
+   timeout='none'
+   inactivity timeout='none'
+-- Using src='https://github.com/sasha16613/print/archive/v1.0.tar.gz'
+-- [download 100% complete]
+-- verifying file...
+       file='/home/yana/.hunter/_Base/Download/print/v1.0/4f6250e/v1.0.tar.gz'
+-- Downloading... done
+-- extracting...
+     src='/home/yana/.hunter/_Base/Download/print/v1.0/4f6250e/v1.0.tar.gz'
+     dst='/home/yana/.hunter/_Base/357ce5d/e5bec79/4a8c314/Build/print/Source'
+-- extracting... [tar xfz]
+-- extracting... [analysis]
+-- extracting... [rename]
+-- extracting... [clean up]
+-- extracting... done
+[2/16] No update step for 'print-Release'
+[4/16] No patch step for 'print-Release'
+[4/16] Performing configure step for 'print-Release'
+loading initial cache file /home/yana/.hunter/_Base/357ce5d/e5bec79/4a8c314/cache.cmake
+loading initial cache file /home/yana/.hunter/_Base/357ce5d/e5bec79/4a8c314/Build/print/args.cmake
+-- The C compiler identification is GNU 9.4.0
+-- The CXX compiler identification is GNU 9.4.0
+-- Check for working C compiler: /usr/bin/cc - skipped
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Check for working CXX compiler: /usr/bin/c++ - skipped
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/yana/.hunter/_Base/357ce5d/e5bec79/4a8c314/Build/print/Build/print-Release-prefix/src/print-Release-build
+[5/16] Performing build step for 'print-Release'
+[1/2] Building CXX object CMakeFiles/print.dir/source/print.cpp.o
+[2/2] Linking CXX static library libprint.a
+[6/16] Performing install step for 'print-Release'
+[0/1] Install the project...
+-- Install configuration: "Release"
+-- Installing: /home/yana/.hunter/_Base/357ce5d/e5bec79/4a8c314/Build/print/Install/lib/libprint.a
+-- Installing: /home/yana/.hunter/_Base/357ce5d/e5bec79/4a8c314/Build/print/Install/include/print.h
+-- Installing: /home/yana/.hunter/_Base/357ce5d/e5bec79/4a8c314/Build/print/Install/lib/cmake/print/print.cmake
+-- Installing: /home/yana/.hunter/_Base/357ce5d/e5bec79/4a8c314/Build/print/Install/lib/cmake/print/print-release.cmake
+-- Installing: /home/yana/.hunter/_Base/357ce5d/e5bec79/4a8c314/Build/print/Install/lib/cmake/print/printConfig.cmake
+loading initial cache file /home/yana/.hunter/_Base/357ce5d/e5bec79/4a8c314/Build/print/args.cmake
+[8/16] Completed 'print-Release'
+[9/16] Creating directories for 'print-Debug'
+[9/16] Performing download step (download, verify and extract) for 'print-Debug'
+-- verifying file...
+       file='/home/yana/.hunter/_Base/Download/print/v1.0/4f6250e/v1.0.tar.gz'
+-- File already exists and hash match (skip download):
+  file='/home/yana/.hunter/_Base/Download/print/v1.0/4f6250e/v1.0.tar.gz'
+  SHA1='4f6250ec27c09c04035332769986ab3b3eb151c0'
+-- extracting...
+     src='/home/yana/.hunter/_Base/Download/print/v1.0/4f6250e/v1.0.tar.gz'
+     dst='/home/yana/.hunter/_Base/357ce5d/e5bec79/4a8c314/Build/print/Source'
+-- extracting... [tar xfz]
+-- extracting... [analysis]
+-- extracting... [rename]
+-- extracting... [clean up]
+-- extracting... done
+[10/16] No update step for 'print-Debug'
+[12/16] No patch step for 'print-Debug'
+[12/16] Performing configure step for 'print-Debug'
+loading initial cache file /home/yana/.hunter/_Base/357ce5d/e5bec79/4a8c314/cache.cmake
+loading initial cache file /home/yana/.hunter/_Base/357ce5d/e5bec79/4a8c314/Build/print/args.cmake
+-- The C compiler identification is GNU 9.4.0
+-- The CXX compiler identification is GNU 9.4.0
+-- Check for working C compiler: /usr/bin/cc - skipped
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Check for working CXX compiler: /usr/bin/c++ - skipped
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/yana/.hunter/_Base/357ce5d/e5bec79/4a8c314/Build/print/Build/print-Debug-prefix/src/print-Debug-build
+[13/16] Performing build step for 'print-Debug'
+[1/2] Building CXX object CMakeFiles/print.dir/source/print.cpp.o
+[2/2] Linking CXX static library libprintd.a
+[14/16] Performing install step for 'print-Debug'
+[0/1] Install the project...
+-- Install configuration: "Debug"
+-- Installing: /home/yana/.hunter/_Base/357ce5d/e5bec79/4a8c314/Build/print/Install/lib/libprintd.a
+-- Up-to-date: /home/yana/.hunter/_Base/357ce5d/e5bec79/4a8c314/Build/print/Install/include/print.h
+-- Up-to-date: /home/yana/.hunter/_Base/357ce5d/e5bec79/4a8c314/Build/print/Install/lib/cmake/print/print.cmake
+-- Installing: /home/yana/.hunter/_Base/357ce5d/e5bec79/4a8c314/Build/print/Install/lib/cmake/print/print-debug.cmake
+-- Up-to-date: /home/yana/.hunter/_Base/357ce5d/e5bec79/4a8c314/Build/print/Install/lib/cmake/print/printConfig.cmake
+loading initial cache file /home/yana/.hunter/_Base/357ce5d/e5bec79/4a8c314/Build/print/args.cmake
+[16/16] Completed 'print-Debug'
+-- [hunter] Build step successful (dir: /home/yana/.hunter/_Base/357ce5d/e5bec79/4a8c314/Build/print)
+-- [hunter] Cache saved: /home/yana/.hunter/_Base/Cache/raw/bd87f1e5ef80d5aa4658341e2d75ff9fc32766f7.tar.bz2
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/yana/CLionProjects/FINAL-lab07/cmake-build-debug
